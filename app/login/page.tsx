@@ -36,7 +36,7 @@ export default function LoginPage() {
            Войди чтобы увидеть свои финансы
          </p>
          <button
-            onClick={() => signIn('google', { callbackUrl: '/dashboard' })}
+            onClick={() => signIn('google', { callbackUrl: '/' })}
             style={{
               width: '100%',
               padding: '10px 0',
